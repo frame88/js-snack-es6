@@ -27,4 +27,57 @@ for (let index = a; index < b; index++) {
     console.log(element);
 }
 */
+arr = ['piadina','menestrello','gianduiotto','babbo natale','obiwan'];
+aaa = 2;
+bbb = 4;
+
+let ris = arrayposition(arr, aaa, bbb);
+
+function arrayposition(array, a, b) {
+    let newarray = [];
+    array.forEach((num, i) => {
+        if (i > a && i < b) {
+            newarray.push(num);
+        }
+    });
+    return newarray;
+}
+
+console.log(ris);
+
+
+
+
+/*
+a = 4;
+b = 1;
+
+const arr = ['piadina','menestrello','gianduiotto','babbo natale','obiwan'];
+const result = arr.filter(compresi);
+
+function compresi(i) {
+    if (i > a && i < b) {
+        return arr[i];
+    }
+}
+
+console.log(result);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
