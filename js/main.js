@@ -43,7 +43,7 @@ function arrayposition(array, a, b) {
     return newarray;
 }
 
-console.log(ris);
+console.log(arr, ris);
 
 
 
